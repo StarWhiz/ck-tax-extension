@@ -140,8 +140,8 @@ CKI.inputRowData = function(dataSource, row) {
 			var formIndex = rowResp.formIndex;
 			var rowIndex = rowResp.rowIndex;
 
-			var bt = element.querySelector('[name="capitalGains['+formIndex+'].belongsTo"]');
-			(data.belongsTo) ? bt.value = data.belongsTo : bt.value = "tp";
+			//var bt = element.querySelector('[name="capitalGains['+formIndex+'].belongsTo"]');
+			//(data.belongsTo) ? bt.value = data.belongsTo : bt.value = "tp";
 
 			var rc = element.querySelector('[name="capitalGains['+formIndex+'].reportingCategory"]');
 			rc.value = data.reportingCategory;
